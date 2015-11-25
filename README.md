@@ -12,6 +12,13 @@
 
 # First API calls
 
+## Variety of APIs
+
+* [https://bikeindex.org/documentation/api_v2](https://bikeindex.org/documentation/api_v2)
+* [http://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC](http://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
+* [http://allegro.pl/webapi/documentation.php](http://allegro.pl/webapi/documentation.php)
+* [http://ereonline2.eurotaxglass.com/ere/acoapp/new_test_aco_call_xml.php](http://ereonline2.eurotaxglass.com/ere/acoapp/new_test_aco_call_xml.php)
+
 ## Chuck Noris jokes
 
 Open link in browser: [http://api.icndb.com/jokes/random](http://api.icndb.com/jokes/random)
@@ -33,29 +40,23 @@ Documentation: [http://apidev.accuweather.com/developers/samples](http://apidev.
     ```
     curl -u consumer_key:consumer_secret -X POST -d "grant_type=client_credentials" https://api.twitter.com/oauth2/token
     ```
-
 * Search tweets
 
     ```
     curl -H "Authorization: Bearer TOKEN" "https://api.twitter.com/1.1/search/tweets.json?q=%23polsl&result_type=recent"
     ```
-
 ## YaaS Product API
 
 Follow getting started guide at [https://devportal.yaas.io/gettingstarted/](https://devportal.yaas.io/gettingstarted/)
 
 * Get token
-  
+
   ```
   curl -u client_id:client_secret -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "grant_type=client_credentials" https://api.yaas.io/hybris/oauth2/b1/token
   ```
 
 * Get Products
-  
   ```
   curl -H "Authorization: Bearer TOKEN" https://api.yaas.io/hybris/product/b1/apitest/products
   ```
-  
-
-
-
+ 
