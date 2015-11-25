@@ -29,10 +29,13 @@ Documentation: [http://apidev.accuweather.com/developers/samples](http://apidev.
 * Register account (if you don't have it already)
 * Register app: [https://apps.twitter.com](https://apps.twitter.com)
 * Get token
+
     ```
     curl -u consumer_key:consumer_secret -X POST -d "grant_type=client_credentials" https://api.twitter.com/oauth2/token
     ```
+
 * Search tweets
+
     ```
     curl -H "Authorization: Bearer TOKEN" "https://api.twitter.com/1.1/search/tweets.json?q=%23polsl&result_type=recent"
     ```
@@ -42,9 +45,11 @@ Documentation: [http://apidev.accuweather.com/developers/samples](http://apidev.
 Follow getting started guide at [https://devportal.yaas.io/gettingstarted/](https://devportal.yaas.io/gettingstarted/)
 
 * Get token
+  
   ```
   curl -u client_id:client_secret -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "grant_type=client_credentials&scope=hybris.product_view" https://api.yaas.io/hybris/oauth2/b1/token
   ```
+
 * Get Products
   
   ```
