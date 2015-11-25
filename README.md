@@ -47,7 +47,7 @@ Follow getting started guide at [https://devportal.yaas.io/gettingstarted/](http
 * Get token
   
   ```
-  curl -u client_id:client_secret -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "grant_type=client_credentials&scope=hybris.product_view" https://api.yaas.io/hybris/oauth2/b1/token
+  curl -u client_id:client_secret -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "grant_type=client_credentials" https://api.yaas.io/hybris/oauth2/b1/token
   ```
 
 * Get Products
