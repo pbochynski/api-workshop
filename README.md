@@ -1,8 +1,7 @@
 # api-workshop
 
 * Part 1 - API economy, basics of microservices ([slides](api-billioner-part-1.pdf))
-* Part 2 - REST, API design, RAML, security, OAuth
-
+* [Part 2](part-2.md) - REST, API design, RAML, security, OAuth
 
 # Useful tools
 
@@ -70,4 +69,6 @@ Follow getting started guide at [https://devportal.yaas.io/gettingstarted/](http
  
  1. Create twitter app and get some tweets about #polsl and #yaas (post some to see the difference)
  2. Create YaaS project, subscribe Commerce and Core packages, add some products and read them using API
+ 
+ 
  
