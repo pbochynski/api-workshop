@@ -1,5 +1,9 @@
 # api-workshop
 
+* Part 1 - API economy, basics of microservices ([slides](api-billioner-part-1.pdf))
+* Part 2 - REST, API design, RAML, security, OAuth
+
+
 # Useful tools
 
 * [git](https://git-scm.com/downloads)
@@ -59,4 +63,11 @@ Follow getting started guide at [https://devportal.yaas.io/gettingstarted/](http
   ```
   curl -H "Authorization: Bearer TOKEN" https://api.yaas.io/hybris/product/b1/apitest/products
   ```
+
+ # Homework
+ 
+ ## Part 1
+ 
+ 1. Create twitter app and get some tweets about #polsl and #yaas (post some to see the difference)
+ 2. Create YaaS project, subscribe Commerce and Core packages, add some products and read them using API
  
