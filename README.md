@@ -2,6 +2,7 @@
 
 * Part 1 - API economy, basics of microservices ([slides](api-billioner-part-1.pdf))
 * [Part 2](part-2.md) - REST, API design, RAML, security, OAuth
+* [Part 3](part-3.md) - keep it running
 
 # Useful tools
 
