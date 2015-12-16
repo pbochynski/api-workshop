@@ -5,8 +5,8 @@
 ## Start service
 
 	```
-	git clone https://github.com/pbochynski/spotify
-	npm install
+	git clone https://github.com/pbochynski/spotify
+	npm install
 	node index.js
     ```
 
