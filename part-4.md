@@ -7,6 +7,10 @@
 	git clone https://github.com/pbochynski/spotify
 	npm install
 	node index.js
+	
+In separate window:
+    
+    node latency-check.js
 
 ## Generate some load
 
