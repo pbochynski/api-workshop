@@ -4,23 +4,17 @@
 
 ## Start service
 
-	```
 	git clone https://github.com/pbochynski/spotify
 	npm install
 	node index.js
-    ```
-
 
 ## Generate some load
 
-	```
 	npm install -g bench-rest
 	bench-rest -n 100 -c 50 http://localhost:3000/statistics/loadtest
-	```
 	
 You should get results similar to these:
 
-	```
 	errors:  0
     stats:  { totalElapsed: 29966.033288002014,
       main: 
@@ -47,7 +41,6 @@ You should get results similar to these:
           } 
        } 
     }
-    ```
 	
 ## Fix service
 
