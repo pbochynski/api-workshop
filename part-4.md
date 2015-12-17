@@ -1,5 +1,9 @@
 # API Billioner - part 4
 
+# Slides
+
+[API billioner - part 4](api-billioner-part-4.pdf)
+
 # Exercise - make your service more resilient
 
 ## Start service
